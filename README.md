@@ -1,4 +1,4 @@
-# Book Management Library API
+# L2B5A3-Library-Management-Backend
 
 This is a RESTful API built using Node.js, Express.js, TypeScript, and MongoDB (via Mongoose) to manage a library of books and borrow records. It supports book CRUD operations, borrowing system, filtering by genre, sorting, limiting results, and borrow summary using aggregation.
 
@@ -20,38 +20,7 @@ This is a RESTful API built using Node.js, Express.js, TypeScript, and MongoDB (
 
 ## Technologies Used
 
-Node.js, Express.js, TypeScript, MongoDB, Mongoose, Dotenv, Nodemon
-
----
-
-## Getting Started
-
-## 📦 Installation & Setup
-
-1. **Clone the repo**
-
-```bash
-git clone https://github.com/md-munna-khan/Library-Management-assignment-3.git
-cd Library-Management-assignment-3
-```
-2. Install Dependencies
-```bash
-npm install
-```
-3. Create .env File
-```bash
-PORT=5000
-DATABASE_URL=mongodb://localhost:27017/libraryDB
-```
-4. Run the Server
-```bash
-npm run dev     # For development
-npm run build   # Compile TypeScript
-npm start       # Run in production
-```
-
-
-Server will run on: `http://localhost:5000`
+Node.js, Express.js, TypeScript, MongoDB, Mongoose, Dotenv, ts-node-dev
 
 ---
 
